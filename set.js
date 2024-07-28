@@ -22,7 +22,7 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
     ETAT : process.env.PRESENCE || '',
     //GPT : process.env.OPENAI_API_KEY || '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',
-    DP : process.env.STARTING_BOT_MESSAGE || "yes",
+    DP : process.env.STARTING_BOT_MESSAGE || "no",
     TZ : process.env.TIME_ZONE || 'Etc/GMT',
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     BOOM_MESSAGE_LIMIT : process.env.BOOM_MESSAGE_LIMIT || 100,
